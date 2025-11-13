@@ -1,0 +1,7 @@
+---
+title: "readme.md"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+This repository contains code for scraping the Wikipedia page CSV example.
