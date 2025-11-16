@@ -4,4 +4,9 @@ output: html_document
 date: "`r Sys.Date()`"
 ---
 
-This repository contains code for scraping the Wikipedia page CSV example.
+This repository contains code (R and Python) that scrapes the example delimiter-separated table(s) from the Wikipedia page: <https://en.wikipedia.org/wiki/Delimiter-separated_values>
+
+-   `r_csv/` contains an R script (`scrape_csv.R`) that uses `rvest` to extract table(s) and save them as CSV files.
+-   `python_csv/` contains a Python script (`scrape_csv.py`) that uses `requests` + `BeautifulSoup` (for locating the tables) and `pandas` to parse and save them as CSV files.
+
+Run the scripts to produce local CSV files.
