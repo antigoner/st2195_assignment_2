@@ -1,9 +1,3 @@
----
-title: "readme.md"
-output: html_document
-date: "`r Sys.Date()`"
----
-
 This repository contains code (R and Python) that scrapes the example delimiter-separated table(s) from the Wikipedia page: <https://en.wikipedia.org/wiki/Delimiter-separated_values>
 
 -   `r_csv/` contains an R script (`scrape_csv.R`) that uses `rvest` to extract table(s) and save them as CSV files.
